@@ -6,8 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'josegonzalez\\Dotenv' => array($vendorDir . '/josegonzalez/dotenv/src', $vendorDir . '/josegonzalez/dotenv/tests'),
-    'PayPal' => array($vendorDir . '/paypal/rest-api-sdk-php/lib'),
-    'Hybrid' => array($vendorDir . '/hybridauth/hybridauth/hybridauth'),
-    'Detection' => array($vendorDir . '/mobiledetect/mobiledetectlib/namespaced'),
+    'Twig_Extensions_' => array($vendorDir . '/twig/extensions/lib'),
+    'Twig_' => array($vendorDir . '/twig/twig/lib'),
 );

@@ -1,6 +1,8 @@
 {
-    "require": {
-        "ext-intl": "*",
-	   "ext-mbstring": "*"
-    }
+  "require": {
+    "php": "7.3.0",
+    "twig/extensions": "~1.0",
+    "ext-mbstring": "*",
+    "ext-intl": "*"
+  }
 }
