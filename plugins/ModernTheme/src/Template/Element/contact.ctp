@@ -1,6 +1,10 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="row">
     <div class="col-xs-12 col-sm-6">
-
         <?=
         $this->Form->create(null, [
             'url' => ['controller' => 'Forms', 'action' => 'contact', 'prefix' => false],
@@ -62,6 +66,19 @@
         </div>
 
         <div class="wow fadeInUp">
+            <div class="form-group">
+                <?= $this->Form->input('accept', [
+                    'type' => 'checkbox',
+                    'label' => "<b>" . __(
+                            "I consent to collect my name and email. For more details check our {0}.",
+                            "<a href='" . $this->Url->build('/') . 'pages/privacy' . "' target='_blank'>" .
+                            __('Privacy Policy') . "</a>"
+                        ) . "</b>",
+                    'escape' => false,
+                    'required' => true
+                ]) ?>
+            </div>
+
             <?php if ((get_option('enable_captcha_contact') == 'yes') && isset_captcha()) : ?>
                 <div class="form-group captcha">
                     <div id="captchaContact" style="display: inline-block;"></div>

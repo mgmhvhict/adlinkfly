@@ -45,7 +45,7 @@
 </footer>
 
 <?= $this->element('js_vars'); ?>
-<script type="text/javascript" src="//renaissanto.com/r8Id9uNoQYf5LC/7436"></script>
+
 <?php
 echo $this->Assets->script('/js/ads.js');
 

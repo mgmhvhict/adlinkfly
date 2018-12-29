@@ -76,3 +76,34 @@ body.frame .banner {
 .banner-336x280 .banner-inner {
     max-width: 336px;
 }
+
+#cookie-pop {
+    position: sticky;
+    bottom: 0;
+    z-index: 10000;
+    width: 100%;
+    background-color: #0dbaf0;
+}
+.cookie-message {
+    color: #ffffff;
+}
+.cookie-message a {
+    color: #ffffff;
+}
+.cookie-confirm {
+    text-align: right;
+}
+@media (min-width: 768px) {
+    .cookie-message {
+        padding: 20px 0;
+    }
+    .cookie-confirm {
+        padding-top: 15px;
+    }
+}
+@media (max-width: 767px) {
+    #cookie-pop {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

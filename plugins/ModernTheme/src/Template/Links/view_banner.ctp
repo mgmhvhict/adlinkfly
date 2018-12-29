@@ -69,7 +69,7 @@ $this->assign('og_image', $link->image);
     <?php endif; ?>
 
     <div style="margin-bottom: 10px;">
-        <a href="javascript: void(0)" class="btn btn-success btn-lg get-link disabled" rel="noreferrer">
+        <a href="javascript: void(0)" class="btn btn-success btn-lg get-link disabled">
             <?= __('Please wait...') ?>
         </a>
     </div>
