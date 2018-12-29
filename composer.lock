@@ -46,7 +46,7 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            
+            "time": "2013-01-29T22:51:45+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -63,7 +63,7 @@
                 "shasum": ""
             },
             "require": {
-                "ext-intl": "*"
+	"ext-intl": "*"
                 "php": ">=5.3.9"
             },
             "require-dev": {
@@ -97,8 +97,17 @@
                 "env",
                 "environment"
             ],
-           
+            "time": "2016-09-01T10:05:43+00:00"
         },
+        {
+            "name": "wordpress",
+            "version": "4.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
             "require": {
                 "fancyguy/webroot-installer": "1.0.0"
             },
@@ -148,7 +157,7 @@
                 "nginx",
                 "php"
             ],
-           
+            "time": "2017-08-03 22:13:11"
         }
     ],
     "aliases": [],
